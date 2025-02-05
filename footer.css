@@ -1,0 +1,51 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+.foot{
+    background-color: #45339E;
+}
+.footer{
+    background-color: #102036;
+}
+.tech{
+    color: #86CD0E;
+}
+.col{
+    text-align: center;
+    align-self: center;
+    gap: 5px;
+    margin: 15px;
+}
+.footer{
+    background-color: #102036;
+}
+.social-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+
+
+}
+.social-link img{
+    width: 45px;
+}
+.logo{
+    justify-content: center;
+}
+.logo img{
+    width: 200px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 15px;
+}
+.las{
+    text-align: end;
+}
+hr{
+   color: white;
+}
