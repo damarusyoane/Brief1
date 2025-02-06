@@ -1,0 +1,37 @@
+
+.box{
+    border-color: white;
+}
+.link{
+    transition: all 0.3s ease;
+    background-color: white;
+    color: black;
+}
+.link:hover{
+    background-color: #86CD0E;/* green background on hover*/
+    color: white;/* color text white on hover*/
+}
+.btn link{
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.back{
+    background-color: #242935;
+}
+.bord{
+    border: 1px solid white;
+}
+.nav-link{
+    transition: all 0.3s ease;
+    color: white;
+}
+.nav-link:hover{
+    background-color: #86CD0E;/* green background on hover*/
+    text-align: center;
+    color: black;/* color text green on hover*/
+}

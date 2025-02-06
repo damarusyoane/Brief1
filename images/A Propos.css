@@ -1,0 +1,73 @@
+ /* Styles supplémentaires pour personnaliser la page */
+ .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.presentation-section .card {
+    margin: 20px 0;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.values-list {
+    list-style: none;
+    padding: 0;
+}
+
+.values-list li {
+    margin: 10px 0;
+}
+
+.gallery-row img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-row img:hover {
+    transform: scale(1.1);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member p {
+    margin-top: 10px;
+}
+
+/* Style pour les cadres */
+.frame {
+    border: 3px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Galerie d'images */
+.gallery-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.gallery-row .col {
+    flex: 1;
+}
+
+/* Animation pour changement d'image à clic */
+.gallery-row img:active {
+    opacity: 0.7;
+}
